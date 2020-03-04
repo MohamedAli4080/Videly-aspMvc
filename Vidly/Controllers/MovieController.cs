@@ -34,5 +34,9 @@ namespace Vidly.Controllers
             return Content(year + "/" + month);
 
         }
+        public ActionResult test()
+        {
+            return View();
+        }
     }
 }
